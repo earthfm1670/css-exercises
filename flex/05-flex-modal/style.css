@@ -35,6 +35,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .close-button {
@@ -93,4 +94,10 @@ button.cancel {
 .header {
   font-weight: 700;
   font-size: 120%;
+}
+
+.confirm-container,
+.text,
+.button-container {
+  margin-bottom: 5px;
 }
