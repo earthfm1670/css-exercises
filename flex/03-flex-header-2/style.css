@@ -14,18 +14,14 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 8px;
 }
 
-.container1 {
-  display: flex;
-  gap: 8px;
-}
-
+.container1,
 .container2 {
   display: flex;
   gap: 8px;
+  align-items: center;
 }
 
 .profile-image {
